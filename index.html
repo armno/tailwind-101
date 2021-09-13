@@ -6,8 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Buzzwoo Active(d)</title>
 	<link rel="stylesheet" href="/css/main.css">
+	<link rel="icon" href="favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-karla">
 	<div style="background-image: url('https://source.unsplash.com/1b7pOXybjI8')" class="pt-8 pb-32 px-8 bg-cover bg-center bg-blend-difference bg-gray-900">
 		<div class="container mx-auto max-w-6xl">
 			<div class="flex items-end">
@@ -17,17 +21,17 @@
 			<div class="mt-24 flex flex-col space-y-10 md:flex-row md:space-x-20 md:space-y-0 justify-center text-white">
 				<div class="text-center">
 					<div class="uppercase text-xs font-regular tracking-wider">Overall run</div>
-					<div class="font-mono text-4xl mt-2 font-semibold">2,508.3</div>
+					<div class="font-dm text-4xl mt-2 font-semibold">2,508.3</div>
 					<div class="uppercase text-xs mt-2 font-regular">km</div>
 				</div>
 				<div class="text-center">
 					<div class="uppercase text-xs font-regular tracking-wider">Overall ride</div>
-					<div class="font-mono text-4xl mt-2 font-semibold">12,394.4</div>
+					<div class="font-dm text-4xl mt-2 font-semibold">12,394.4</div>
 					<div class="uppercase text-xs mt-2 font-regular">km</div>
 				</div>
 				<div class="text-center">
 					<div class="uppercase text-xs font-regular tracking-wider">Overall time</div>
-					<div class="font-mono text-4xl mt-2 font-semibold">783</div>
+					<div class="font-dm text-4xl mt-2 font-semibold">783</div>
 					<div class="uppercase text-xs mt-2 font-regular">hours</div>
 				</div>
 			</div>
@@ -46,7 +50,7 @@
 				</g>
 			</svg>
 		</div>
-		<div class="tracking-wider mt-4 text-2xl text-gray-800 font-bold">Buzzwoo Active</div>
+		<div class="tracking-wider mt-4 text-2xl text-gray-800 font-bold font-karla">Buzzwoo Active</div>
 		<div class="uppercase text-xs mt-2 text-gray-600 tracking-widest">Est. 2011</div>
 		<hr class="mt-12 w-1/4 bg-transparent mx-auto border-gray-300" />
 	</div>
@@ -58,11 +62,11 @@
 		<div class="h-2 w-full bg-gray-700 relative">
 			<div class="h-2 w-3/5 absolute left-0 top-0 bg-brand"></div>
 		</div>
-		<div class="text-right text-xs mt-2 px-4 text-gray-500 font-mono">186 D 18H 34M 2S</div>
+		<div class="text-right text-xs mt-2 px-4 text-gray-500 font-dm">186 D 18H 34M 2S</div>
 	</div>
 
 	<div class="py-12 px-8 container mx-auto max-w-6xl">
-		<h2 class="text-xl font-bold text-gray-700">Latest activities</h2>
+		<h2 class="text-xl font-bold text-gray-700 font-karla">Latest activities</h2>
 		<ol class="flex flex-col space-y-16 mt-12 md:grid md:grid-cols-4 md:space-y-0">
 			<li class="flex flex-col items-center">
 				<div class="w-8 h-8">
@@ -132,7 +136,7 @@
 	</div>
 
 	<div class="container max-w-6xl mt-8 mx-auto px-8 flex items-baseline justify-between">
-		<h3 class="text-xl font-bold text-gray-700">Leaderboard</h3>
+		<h3 class="text-xl font-bold text-gray-700 font-karla">Leaderboard</h3>
 		<div class="ml-4">
 			<button class="text-xs mr-1 text-gray-600 bg-gray-100 px-3 py-1 rounded font-semibold">Last week</button>
 			<button class="text-xs text-gray-400 px-3 py-1 hover:bg-gray-100 rounded transition hover:text-gray-600">All time</button>
@@ -145,9 +149,9 @@
 			<thead>
 				<tr>
 					<th colspan="3" ></th>
-					<th class="text-center font-medium uppercase text-xs tracking-wider text-gray-500">Activities</th>
-					<th class="hidden md:table-cell font-medium uppercase text-xs tracking-wider text-gray-500">Distance Run (km)</th>
-					<th class="hidden lg:table-cell font-medium uppercase text-xs tracking-wider text-gray-500">Distance Bike (km)</th>
+					<th class="text-center font-medium uppercase text-xs text-gray-500">Activities</th>
+					<th class="hidden md:table-cell font-medium uppercase text-xs text-gray-500">Distance Run (km)</th>
+					<th class="hidden lg:table-cell font-medium uppercase text-xs text-gray-500">Distance Bike (km)</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -157,9 +161,9 @@
 						<img class="w-12 h-12 rounded-full" src="https://i.pravatar.cc/100?img=24" alt="person" />
 					</td>
 					<td class="text-gray-700">Min M.</td>
-					<td class="text-center font-mono">22</td>
-					<td class="text-center font-mono hidden md:table-cell">19.6</td>
-					<td class="text-center font-mono hidden lg:table-cell">403</td>
+					<td class="text-center font-dm">22</td>
+					<td class="text-center font-dm hidden md:table-cell">19.6</td>
+					<td class="text-center font-dm hidden lg:table-cell">403</td>
 				</tr>
 				<tr>
 					<td class="p-2">2</td>
@@ -167,9 +171,9 @@
 						<img class="w-12 h-12 rounded-full" src="https://i.pravatar.cc/100?img=69" alt="person" />
 					</td>
 					<td class="text-gray-700">Sven E.</td>
-					<td class="text-center font-mono">14</td>
-					<td class="text-center font-mono hidden md:table-cell">103.2</td>
-					<td class="text-center font-mono hidden lg:table-cell">0</td>
+					<td class="text-center font-dm">14</td>
+					<td class="text-center font-dm hidden md:table-cell">103.2</td>
+					<td class="text-center font-dm hidden lg:table-cell">0</td>
 				</tr>
 				<tr>
 					<td class="p-2">3</td>
@@ -177,9 +181,9 @@
 						<img class="w-12 h-12 rounded-full" src="https://i.pravatar.cc/100?img=2" alt="person" />
 					</td>
 					<td class="text-gray-700">Brunovski A.</td>
-					<td class="text-center font-mono">18</td>
-					<td class="text-center font-mono hidden md:table-cell">64.9</td>
-					<td class="text-center font-mono hidden lg:table-cell">16.3</td>
+					<td class="text-center font-dm">18</td>
+					<td class="text-center font-dm hidden md:table-cell">64.9</td>
+					<td class="text-center font-dm hidden lg:table-cell">16.3</td>
 				</tr>
 				<tr>
 					<td class="p-2">4</td>
@@ -187,9 +191,9 @@
 						<img class="w-12 h-12 rounded-full" src="https://i.pravatar.cc/100?img=21" lt="person" />
 					</td>
 					<td class="text-gray-700">Natacha R.</td>
-					<td class="text-center font-mono">7</td>
-					<td class="text-center font-mono hidden md:table-cell">64.9</td>
-					<td class="text-center font-mono hidden lg:table-cell">16.3</td>
+					<td class="text-center font-dm">7</td>
+					<td class="text-center font-dm hidden md:table-cell">64.9</td>
+					<td class="text-center font-dm hidden lg:table-cell">16.3</td>
 				</tr>
 			</tbody>
 		</table>
@@ -201,7 +205,7 @@
 	</div>
 
 	<div class="mt-8 px-8 py-8 container mx-auto max-w-6xl">
-		<h2 class="text-xl font-bold text-gray-700">Active members</h2>
+		<h2 class="text-xl font-bold text-gray-700 font-karla">Active members</h2>
 
 		<ul class="flex flex-shrink-0 flex-wrap mt-4">
 			<li class="w-16 h-16">
@@ -298,7 +302,7 @@
 
 	<div class="mt-8 bg-gray-100">
 		<div class="container mx-auto max-w-6xl px-8 py-12">
-			<h2 class="text-xl text-gray-800">About Buzzwoo Active</h2>
+			<h2 class="text-xl text-gray-800 font-medium font-karla">About Buzzwoo Active</h2>
 			<p class="text-sm mt-6 text-gray-600 max-w-xl">In 2016 it's all about being active! And we'll be doing it together, as a team. Every KM will be rewarded with a donation amount (10 THB/KM Running and 3 THB/KM Cycling). The funds will be used to support <a href="#">Santisook Dog Rescue</a> and <a href="#">Urban Light</a> in Chiang Mai, Thailand. To stay up to date with our progress, check out this page and say "Hi" on our <a href="#">Facebook Page</a>.</p>
 
 			<footer class="py-4 mt-12 uppercase text-xs text-gray-500 flex flex-col items-center space-y-2 md:flex-row md:justify-between md:space-y-0">

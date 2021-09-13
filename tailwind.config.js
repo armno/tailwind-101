@@ -10,6 +10,10 @@ module.exports = {
 					DEFAULT: '#f84e4e',
 					dark: '#c83636'
 				}
+			},
+			fontFamily: {
+				karla: 'Karla, sans-serif',
+				dm: ['DM Mono', 'monospace']
 			}
 		},
 	},
