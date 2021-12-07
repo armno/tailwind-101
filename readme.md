@@ -1,6 +1,6 @@
 # tailwindcss-101
 
-Learning TailwindCSS by building a static version of the original Buzzwoo Active replica.
+Learning TailwindCSS by recreating a static version of the original Buzzwoo Active landing page.
 
 ![screenshot](screenshot.jpg)
 
